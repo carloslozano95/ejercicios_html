@@ -1,0 +1,8 @@
+tr {
+    text-align-last: center;
+}
+
+
+td, th, table{
+    border: solid 1px black;
+}

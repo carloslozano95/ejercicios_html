@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Validación de teléfono mediante expresiones regulares</h1>
+    <form>
+      <input
+        type="text"
+        name="mobile"
+        placeholder="Enter 9 digits of your phone"
+        class="form-control"
+        pattern="\d{9}"
+        required
+        oninvalid="this.setCustomValidity('Escoge un número de 9 dígitos')"
+        oninput="this.setCustomValidity('')"
+      />
+      <input type="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <form
+      target="_blank"
+      action="https://formsubmit.co/carlos28lg@gmail.com"
+      method="POST"
+    >
+      <input
+        type="text"
+        name="mobile"
+        placeholder="Introduce el número de teléfono"
+        class="form-control"
+        pattern="\d{9}"
+        required
+      />
+      <div class="form-group">
+        <textarea
+          placeholder="Tu mensaje"
+          class="form-control"
+          name="message"
+          rows="5"
+          required
+        ></textarea>
+      </div>
+      <button type="submit">Enviar formulario</button>
+    </form>
+  </body>
+</html>
